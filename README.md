@@ -1,7 +1,7 @@
-[فارسی](https://github.com/ezwrt/CFW-BOT/blob/main/README-FA.md) 
-[ENGLISH](https://github.com/ezwrt/CFW-BOT/blob/main/README.md)
+[فارسی](https://github.com/ezwrt/CFW-Bot-Tele/blob/main/README-FA.md) 
+[ENGLISH](https://github.com/ezwrt/CFW-Bot-Tele/blob/main/README.md)
 
-# CFW-BOT V0.04
+# CFW-Bot-Tele V0.04
 Cloudflare Woker Bot ! No servers needed, just pure Xray link creation, all running smoothly on PythonAnywhere. a Shortcut to internet freedom! ✨"
 
 # version 0.02 | What is new ?
@@ -58,9 +58,9 @@ i will release the final version soon!
 just copy and run and send tokens when it ask for them :
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ezwrt/CFW-BOT/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ezwrt/CFW-Bot-Tele/main/install.sh)"
 ```
-![image](https://github.com/ezwrt/CFW-BOT/assets/139592104/36852bd8-1d49-4fed-8c4f-5e028f5ae9c0)
+![image](https://github.com/ezwrt/CFW-Bot-Tele/assets/139592104/36852bd8-1d49-4fed-8c4f-5e028f5ae9c0)
 
 ## Ubuntu
 if you want to run bot in background on Ubuntu you can use a systemd setup:
@@ -76,12 +76,12 @@ sudo nano /etc/systemd/system/cfwbot.service
 
 ```bash                             
 [Unit]
-Description=CFW-BOT
+Description=CFW-Bot-Tele
 After=network.target
 
 [Service]
 User=root
-WorkingDirectory=/root/CFW-BOT/
+WorkingDirectory=/root/CFW-Bot-Tele/
 ExecStart=/usr/bin/python3 cfw.py
 Restart=always
 
@@ -107,12 +107,12 @@ sudo systemctl status cfwbot
 4. in your Dashboard section Select Files and and Click on "Open Bash Console Here"
 5.  Clone this repository:
  ```bash
- git clone https://github.com/ezwrt/CFW-BOT.git
+ git clone https://github.com/ezwrt/CFW-Bot-Tele.git
 ```
 6. Navigate to the project directory:
 
  ```bash
- cd CFW-BOT
+ cd CFW-Bot-Tele
  ```
 7. Make `requirement.sh` executable:
  ```bash
