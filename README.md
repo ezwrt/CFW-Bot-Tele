@@ -4,10 +4,6 @@
 # CFW-BOT V0.04
 Cloudflare Woker Bot ! No servers needed, just pure Xray link creation, all running smoothly on PythonAnywhere. a Shortcut to internet freedom! ✨"
 
-![image](https://github.com/ezwrt/CFW-BOT/assets/139592104/8db90fe5-dd6e-4015-840e-5df58ff5f12e)
-
-![image](https://github.com/ezwrt/CFW-BOT/assets/139592104/2512c617-b93a-48ac-a6a9-58bdd5fb67c6)
-
 # version 0.02 | What is new ?
 - it can create unique subscription worker link for each user that can use IP-API value
 - subscription can be updated just by changing the IP_API value
