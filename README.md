@@ -1,12 +1,12 @@
-[فارسی](https://github.com/2ri4eUI/CFW-BOT/blob/main/README-FA.md) 
-[ENGLISH](https://github.com/2ri4eUI/CFW-BOT/blob/main/README.md)
+[فارسی](https://github.com/ezwrt/CFW-BOT/blob/main/README-FA.md) 
+[ENGLISH](https://github.com/ezwrt/CFW-BOT/blob/main/README.md)
 
 # CFW-BOT V0.04
 Cloudflare Woker Bot ! No servers needed, just pure Xray link creation, all running smoothly on PythonAnywhere. a Shortcut to internet freedom! ✨"
 
-![image](https://github.com/2ri4eUI/CFW-BOT/assets/139592104/8db90fe5-dd6e-4015-840e-5df58ff5f12e)
+![image](https://github.com/ezwrt/CFW-BOT/assets/139592104/8db90fe5-dd6e-4015-840e-5df58ff5f12e)
 
-![image](https://github.com/2ri4eUI/CFW-BOT/assets/139592104/2512c617-b93a-48ac-a6a9-58bdd5fb67c6)
+![image](https://github.com/ezwrt/CFW-BOT/assets/139592104/2512c617-b93a-48ac-a6a9-58bdd5fb67c6)
 
 # version 0.02 | What is new ?
 - it can create unique subscription worker link for each user that can use IP-API value
@@ -62,9 +62,9 @@ i will release the final version soon!
 just copy and run and send tokens when it ask for them :
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/2ri4eUI/CFW-BOT/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ezwrt/CFW-BOT/main/install.sh)"
 ```
-![image](https://github.com/2ri4eUI/CFW-BOT/assets/139592104/36852bd8-1d49-4fed-8c4f-5e028f5ae9c0)
+![image](https://github.com/ezwrt/CFW-BOT/assets/139592104/36852bd8-1d49-4fed-8c4f-5e028f5ae9c0)
 
 ## Ubuntu
 if you want to run bot in background on Ubuntu you can use a systemd setup:
@@ -111,7 +111,7 @@ sudo systemctl status cfwbot
 4. in your Dashboard section Select Files and and Click on "Open Bash Console Here"
 5.  Clone this repository:
  ```bash
- git clone https://github.com/2ri4eUI/CFW-BOT.git
+ git clone https://github.com/ezwrt/CFW-BOT.git
 ```
 6. Navigate to the project directory:
 
@@ -178,7 +178,7 @@ npx wrangler --version
 | BOT_TOKEN            | Telegram bot token obtained from BotFather             |
 | ACCOUNT_ID           | Cloudflare account ID                                  |
 | ADMIN_USER_ID        | Numeric Telegram user ID for admin authentication      |
-| IP_API               | use this as refrence https://raw.githubusercontent.com/2ri4eUI/CFW_Worker_Sub/main/ips.txt|
+| IP_API               | use this as refrence https://raw.githubusercontent.com/ezwrt/CFW_Worker_Sub/main/ips.txt|
 
 6.remember to set cloudflare account id in workertemp.txt 
 
